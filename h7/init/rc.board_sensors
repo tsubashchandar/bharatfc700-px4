@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# board specific sensors init
+#------------------------------------------------------------------------------
+board_adc start
+
+# Internal ICM-20602
+icm42688p  -b 4 -R 8  -s start
+icm42605  -b 4 -R 14 -s start
+
+
+icm42670p  -b 1 -R 14 -s start
+ms5611 -s start
+lis3mdl -s -R 0 start
+# Interal DPS310 (barometer)
+dps310 -b 2 -s  start
+
+

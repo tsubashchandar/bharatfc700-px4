@@ -1,0 +1,13 @@
+{
+    "board_id": 3001,
+    "magic": "PX4FWv1",
+    "description": "Firmware for the mRo Pixracer Pro board",
+    "image": "",
+    "build_time": 0,
+    "summary": "h7",
+    "version": "0.1",
+    "image_size": 0,
+    "image_maxsize": 1703936,
+    "git_identity": "",
+    "board_revision": 0
+}
